@@ -24,8 +24,6 @@ class AnyOfField extends Component {
     if (matchingOption === this.state.selectedOption) {
       return;
     }
-
-    this.setState({ selectedOption: matchingOption });
   }
 
   getMatchingOption(formData, options) {
